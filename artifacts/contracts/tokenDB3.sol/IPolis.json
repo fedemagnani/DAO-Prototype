@@ -1,0 +1,131 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "IPolis",
+  "sourceName": "contracts/tokenDB3.sol",
+  "abi": [
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "_id",
+          "type": "uint256"
+        }
+      ],
+      "name": "addedAssociatesOrPartners",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "name": "getProposal",
+      "outputs": [
+        {
+          "components": [
+            {
+              "internalType": "uint256",
+              "name": "id",
+              "type": "uint256"
+            },
+            {
+              "internalType": "uint256",
+              "name": "endingVote",
+              "type": "uint256"
+            },
+            {
+              "internalType": "uint256",
+              "name": "inFavour",
+              "type": "uint256"
+            },
+            {
+              "internalType": "uint256",
+              "name": "expiration",
+              "type": "uint256"
+            },
+            {
+              "internalType": "address",
+              "name": "author",
+              "type": "address"
+            },
+            {
+              "internalType": "uint8",
+              "name": "typeOfProposal",
+              "type": "uint8"
+            },
+            {
+              "internalType": "bool",
+              "name": "isGovernanceProp",
+              "type": "bool"
+            },
+            {
+              "internalType": "bool[]",
+              "name": "status",
+              "type": "bool[]"
+            },
+            {
+              "internalType": "address[]",
+              "name": "proposedAddresses",
+              "type": "address[]"
+            },
+            {
+              "internalType": "uint256[]",
+              "name": "proposedUints",
+              "type": "uint256[]"
+            },
+            {
+              "internalType": "bool[]",
+              "name": "proposedBools",
+              "type": "bool[]"
+            },
+            {
+              "internalType": "string[]",
+              "name": "proposedObjects",
+              "type": "string[]"
+            }
+          ],
+          "internalType": "struct proposal",
+          "name": "",
+          "type": "tuple"
+        }
+      ],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "_id",
+          "type": "uint256"
+        }
+      ],
+      "name": "polisAddressChanged",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "_id",
+          "type": "uint256"
+        }
+      ],
+      "name": "removeReputation",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ],
+  "bytecode": "0x",
+  "deployedBytecode": "0x",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}
